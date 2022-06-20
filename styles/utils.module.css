@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+.heading2Xl {
+    font-size: 2.5rem;
+    color: rebeccapurple;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    margin: 10 rem 10;
+    justify-items: right;
+  }
+  
+  .headingXl {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    margin: 2rem 0;
+  }
+  
+  .headingLg {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+  }
+  
+  .headingMd {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .borderCircle {
+    border-radius: 20px;
+  }
+  
+  
+  .colorInherit {
+    color: inherit;
+  }
+  
+  .padding1px {
+    padding-top: 1px;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listItem {
+    margin: 0 0 1.25rem;
+  }
+  
+  .lightText {
+    color: #666;
+  }
+
+.container {
+  padding: 0 0rem;
+}
+
+.main {
+  background-color: rgb(255, 255, 255);
+  min-height: 150vh;
+  padding: 0rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: "Comfortaa";
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 0rem 0;
+  border-top: 0px solid rgb(232, 231, 209);
+  justify-content: center;
+  align-items: center;
+  font-family: "Comfortaa";
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: rebeccapurple;
+  text-decoration: wheat;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: overline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 2000px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: rgb(93, 93, 93);
+  text-decoration: black;
+  border: 2px solid rebeccapurple;
+  border-radius: 60px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 500px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: rebeccapurple;
+  border-color: black;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 0;
+    flex-direction: row;
+  }
+}
