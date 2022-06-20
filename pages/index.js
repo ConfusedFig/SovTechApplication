@@ -19,17 +19,17 @@ export default function Home() {
         <div className={utilStyles.grid}>
           <a className={utilStyles.card}>
             <h2>Why I would want to work for SovTech</h2>
-            <p>Over the past 2 and half years of my studies I have wanted to find somewhere that could help me find my footing in the 
-              working enviroment through an internship or similar program. When I was visiting Cape Town earlier this year, I had the oppurtunity
+            <p>Over the past two and half years of my studies I have wanted to find somewhere that could help me find my footing in the 
+              working environment through an internship or similar program. When I was visiting Cape Town earlier this year, I had the opportunity
               to accompany one of SovTech's employees to the Cape Town office. I was immediately hooked on the possibility of working there. The working 
-              enviroment, amazingly friendly people and general relaxed but focused vibe made me excited to enter the working world. So the reason I want to
-              work for SovTech can put down to the fact that they make projects fun and interesting through amazing people and amazing talent.</p>
+              environment, amazingly friendly people and general relaxed, but focused vibe made me excited to enter the world of employment. The reason I want to
+              work for SovTech can put down to the fact that they create interesting and innovative projects through amazing people with amazing talent.</p>
           </a>
 
           <a className={utilStyles.card}>
             <h2>Studies</h2>
-            <p>I had initially studied electronic engineering at the University of Stellenbosch, but through my second year, I discovered a 
-              new passion in coding and computer systems. So I left Stellenbosch and started my new degree at UNISA.  </p>
+            <p>I had initially studied electronic engineering at the University of Stellenbosch, but halfway through my second year, I discovered a 
+              new passion in coding and computer systems. I left Stellenbosch and started my new degree at UNISA.  </p>
           </a>
 
           <a className={utilStyles.card} >
@@ -42,7 +42,7 @@ export default function Home() {
           <a className={utilStyles.card} >
             <h2>Other Experience</h2>
             <p>
-              I have worked with data sorting and analysis, as a math tutor for gr. 10-12 and in the sales department of a casket manufacturer.
+              I have worked with data sorting and analysis, as a math tutor for gr. 10-12.
             </p>
           </a>
         </div>
